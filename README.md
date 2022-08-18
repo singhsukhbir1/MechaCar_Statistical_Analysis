@@ -1,1 +1,10 @@
 # MechaCar_Statistical_Analysis
+## Linear Regression to Predict MPG
+- According to our [results](https://drive.google.com/file/d/1IhMgA6yYKenEHPXdjRSPC5OWQh9wT8ys/view?usp=sharing), vehicle length and ground clearance (as well as intercept) are likely to provide non-random amount of variance to the mpg values in the dataset.
+-  The p-value of our linear regression analysis is 5.35 x 10⁻¹¹, which is much smaller than our significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
+- The Multiple R-squared value for our model is increased from 0.50 to 0.71 in our [results](https://drive.google.com/file/d/1IhMgA6yYKenEHPXdjRSPC5OWQh9wT8ys/view?usp=sharing). Therefore, we can say that this linear model predicts mpg of MechaCar prototypes effectively.
+
+## Summary Statistics on Suspension Coils
+According to our results for the [total](https://drive.google.com/file/d/1ARZY67RU-NyuEsbGNalkvTTqFtm9nojk/view?usp=sharing) lots, it meets, the requirement that the variance of suspension coils must not exceed 100 pounds per square inch. In individual [results](https://drive.google.com/file/d/1XHmwqrUrn4eon3AWDHlucT4nOwoMdhM1/view?usp=sharing), only Lot1 and Lot2 meet the requirement. Lot3 exceeded the given limit by 70 pounds per square inch.
+## T-Tests on Suspension Coils
+For the t-test, our main concern is the calculated p-value. If we assume that our significance level is the common 0.05 % our p-values for [Lot1](https://drive.google.com/file/d/1kfQab60zzVSKP-zi68axTogQGy2drVSy/view?usp=sharing) and [Lot2](https://drive.google.com/file/d/1fUazWiV5BsfvJYO7ub7uS6_31GRisqfx/view?usp=sharing) is below our significance level. P-value for [Lot3](https://drive.google.com/file/d/1KJBzhZ-MvjLvdq9nfN1VXpP6nim_uHBq/view?usp=sharing) and [total lot summary](https://drive.google.com/file/d/1P0h2eL0WxpICqjh1COD9UBCkEmvSuOue/view?usp=sharing) is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
